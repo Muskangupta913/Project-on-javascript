@@ -1,0 +1,33 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    transition: 0.5s;
+}
+.main{
+    width:100%;
+    height:100vh;
+    display:flex;
+    justify-content: center; /*to make the click me buttton in the center bcse the display was flex */ 
+    align-items: center;
+}
+.container{
+    width:30rem;
+    padding:10px;
+    border-radius: 10px;
+    font-size: 40px;
+    background-color: white;
+    text-align: center; /*bcs button is inline function so it work with text align cemter*/
+}
+button{
+    margin-top: 5px;
+    width:100%;
+    background-color: black;
+    color:white;
+    display: block;
+    border: none;
+    border-radius: 5px;
+    font-size:35px;
+}

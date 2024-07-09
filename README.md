@@ -1,1 +1,1 @@
-# Project-on-javascript
+# Projects-on-javascript
